@@ -34,7 +34,7 @@ Cette application affiche une liste de Pokemons issuent de la première généra
 * Possibilité de parcourir la liste en scrollant.
 <img src="https://github.com/xiad-fr98/4A_Project/blob/master/screens/img4.PNG" width="360" height="640" />
 
-##Appris
+## Appris
 
 * Architecture MVVM
 * Clean Architecture
