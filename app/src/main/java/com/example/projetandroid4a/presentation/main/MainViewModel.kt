@@ -3,6 +3,9 @@ package com.example.projetandroid4a.presentation.main
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.projetandroid4a.domain.entity.LoginError
+import com.example.projetandroid4a.domain.entity.LoginStatus
+import com.example.projetandroid4a.domain.entity.LoginSuccess
 import com.example.projetandroid4a.domain.entity.User
 import com.example.projetandroid4a.domain.usecase.CreateUserUseCase
 import com.example.projetandroid4a.domain.usecase.GetUserUseCase

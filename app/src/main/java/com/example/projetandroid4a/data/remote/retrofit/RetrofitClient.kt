@@ -1,4 +1,4 @@
-package com.example.projetandroid4a.presentation.retrofit
+package com.example.projetandroid4a.data.remote.retrofit
 
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory

@@ -1,6 +1,6 @@
-package com.example.projetandroid4a.presentation.retrofit
+package com.example.projetandroid4a.data.remote.retrofit
 
-import com.example.projetandroid4a.data.remote.Pokedex
+import com.example.projetandroid4a.data.local.models.Pokedex
 import io.reactivex.Observable
 import retrofit2.http.GET
 

@@ -1,6 +1,6 @@
 package com.example.projetandroid4a.data.repository
 
-import com.example.projetandroid4a.data.local.DatabaseDao
+import com.example.projetandroid4a.data.local.models.DatabaseDao
 import com.example.projetandroid4a.data.local.models.toData
 import com.example.projetandroid4a.data.local.models.toEntity
 import com.example.projetandroid4a.domain.entity.User

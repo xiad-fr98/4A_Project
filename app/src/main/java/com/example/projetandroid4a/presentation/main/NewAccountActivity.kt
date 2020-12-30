@@ -11,7 +11,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 import org.koin.android.ext.android.inject
 
-class CreateAccountActivity : AppCompatActivity() {
+class NewAccountActivity : AppCompatActivity() {
 
     val mainViewModel : MainViewModel by inject()
 

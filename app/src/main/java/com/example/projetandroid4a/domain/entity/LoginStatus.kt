@@ -1,4 +1,4 @@
-package com.example.projetandroid4a.presentation.main
+package com.example.projetandroid4a.domain.entity
 
 sealed class LoginStatus
 

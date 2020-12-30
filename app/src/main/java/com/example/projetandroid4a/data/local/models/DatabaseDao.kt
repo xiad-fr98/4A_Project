@@ -1,4 +1,4 @@
-package com.example.projetandroid4a.data.local
+package com.example.projetandroid4a.data.local.models
 
 import androidx.room.Dao
 import androidx.room.Delete

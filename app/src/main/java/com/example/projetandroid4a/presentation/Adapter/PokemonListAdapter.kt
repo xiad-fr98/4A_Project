@@ -6,21 +6,32 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.appcompat.view.menu.ActionMenuItemView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.projetandroid4a.R
-import com.example.projetandroid4a.data.remote.Pokemon
+import com.example.projetandroid4a.data.local.models.Pokemon
 
 class PokemonListAdapter(internal var context: Context,
                          internal var pokemonList:List<Pokemon>): RecyclerView.Adapter<PokemonListAdapter.MyViewHolder>() {
 
+
+    override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
+        Glide.with(context).load(pokemonList[position].img).into(holder.img_pokemon)
+        holder.txt_pokemon.text=pokemonList[position].name
+
+    }
+
     inner class MyViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
+
         internal var img_pokemon:ImageView
         internal var txt_pokemon:TextView
-        init {
+
+
+
+        init{
             img_pokemon = itemView.findViewById(R.id.pokemon_image) as ImageView
             txt_pokemon = itemView.findViewById(R.id.pokemon_name) as TextView
+
         }
     }
 
@@ -33,8 +44,4 @@ class PokemonListAdapter(internal var context: Context,
         return pokemonList.size
     }
 
-    override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        Glide.with(context).load(pokemonList[position].img).into(holder.img_pokemon)
-        holder.txt_pokemon.text=pokemonList[position].name
-    }
 }

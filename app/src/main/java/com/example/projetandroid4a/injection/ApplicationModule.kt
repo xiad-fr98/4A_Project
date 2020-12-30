@@ -3,7 +3,7 @@ package com.example.projetandroid4a.injection
 import android.content.Context
 import androidx.room.Room
 import com.example.projetandroid4a.data.local.AppDatabase
-import com.example.projetandroid4a.data.local.DatabaseDao
+import com.example.projetandroid4a.data.local.models.DatabaseDao
 import com.example.projetandroid4a.data.repository.UserRepository
 import com.example.projetandroid4a.domain.usecase.CreateUserUseCase
 import com.example.projetandroid4a.domain.usecase.GetUserUseCase
