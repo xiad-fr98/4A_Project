@@ -13,12 +13,14 @@
 
         <LinearLayout
             android:padding="16dp"
+            android:background="#82b1ff"
             android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
             <ImageView
                 android:id="@+id/pokemon_image"
+                android:background="#1a237e"
                 android:scaleType="fitXY"
                 android:layout_width="150dp"
                 android:layout_height="150dp">

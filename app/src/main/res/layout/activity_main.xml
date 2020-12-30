@@ -8,6 +8,17 @@
     android:layout_height="match_parent"
     tools:context=".presentation.main.MainActivity">
 
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toTopOf="@+id/login_input_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/login_input_layout"
         android:layout_width="match_parent"
@@ -58,7 +69,7 @@
         app:layout_constraintLeft_toLeftOf="@id/create_account_button"
         app:layout_constraintRight_toRightOf="@id/create_account_button"
         app:layout_constraintTop_toBottomOf="@+id/password_input_layout"
-        android:text="Login"
+        android:text="Sign In"
         />
     <com.google.android.material.button.MaterialButton
         android:id="@+id/create_account_button"
@@ -70,7 +81,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_button"
-        android:text="Create account"
+        android:text="New account"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

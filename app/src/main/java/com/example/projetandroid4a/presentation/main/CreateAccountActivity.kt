@@ -6,8 +6,9 @@ import android.os.Bundle
 import com.example.projetandroid4a.R
 import com.example.projetandroid4a.domain.entity.User
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
+import kotlinx.android.synthetic.main.account_creation.*
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_main2.*
+
 import org.koin.android.ext.android.inject
 
 class CreateAccountActivity : AppCompatActivity() {
@@ -16,7 +17,7 @@ class CreateAccountActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main2)
+        setContentView(R.layout.account_creation)
 
         confirm_create_account_button.setOnClickListener(){
 
