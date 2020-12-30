@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Splash_Screen_Activity">
+        <activity android:name=".presentation.main.Splash_Screen_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

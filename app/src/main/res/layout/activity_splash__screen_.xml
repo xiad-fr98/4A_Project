@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#1a237e"
-    tools:context=".Splash_Screen_Activity">
+    tools:context=".presentation.main.Splash_Screen_Activity">
 
 
     <com.google.android.material.button.MaterialButton
